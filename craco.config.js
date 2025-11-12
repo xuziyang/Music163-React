@@ -21,7 +21,7 @@ module.exports = {
     // 跨域处理
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:4000',
         changeOrigin: true,
         pathRewrite: { '^/api': '' },
       },
